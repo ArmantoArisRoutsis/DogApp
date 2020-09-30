@@ -1,1 +1,1 @@
-# DogApp
+This is the dog Tinder!
