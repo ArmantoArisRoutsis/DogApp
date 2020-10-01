@@ -5,7 +5,7 @@
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -52,13 +52,17 @@ p{
 }
 
 .title-image{
-    width: 80%;
+    width: 60%;
     transform: rotate(20deg);
     padding: 20px;
+    position: absolute;
+    right: 30%;
 }
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box{
@@ -108,4 +112,22 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media (max-width: 1000px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    .nav-link,.navbar-brand, .navbar-toggler, .download-button{
+        font-size: 4rem;
+        text-align: left;
+    }
+    .nav-link{
+        position: relative;
+        right: 3%;
+    }
 }
