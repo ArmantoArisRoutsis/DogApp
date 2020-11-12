@@ -19,7 +19,7 @@ HTML
 CSS
 Bootstrap
 
-## echnical Information
+## Technical Information
 To run the site on your local machine
 
 Download or clone the repository onto your machine.
